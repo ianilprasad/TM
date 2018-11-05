@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hybrisconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resources/schemas/extensions.xsd">
+	<extensions>
+				 <!--
+                        All extensions located in ${HYBRIS_BIN_DIR}/platform/ext are automatically loaded.
+                        More information about how to configure available extensions can be found here : https://wiki.hybris.com/x/nZVzC
+                -->
+                <path dir="${HYBRIS_BIN_DIR}"/>
+                <extension name="ordermanagementaddon"/>
+                <extension name="orderselfserviceaddon"/>
+                <extension name="ordermanagementwebservices"/>
+                <extension name="warehousing"/>
+                <extension name="warehousingbackoffice"/>
+                <extension name="warehousingwebservices"/>
+                <extension name="mcc"/>
+                <extension name="adaptivesearchsolr"/>
+                <extension name="adaptivesearchbackoffice"/>
+                <extension name="adaptivesearchsamplesaddon"/>
+                <extension name="commerceservicesbackoffice"/>
+                <extension name="solrfacetsearchbackoffice"/>
+                <extension name="solrserver"/>
+                <extension name="acceleratorwebservicesaddon"/>
+                <extension name="assistedservicestorefront"/>
+                <extension name="assistedservicewebservices"/>
+                <extension name="customersupportbackoffice"/>
+                <extension name="customerticketingaddon"/>
+                <extension name="commerceorgsamplesaddon"/>
+                <extension name="ticketsystembackoffice"/>
+                <extension name="consignmenttrackingbackoffice"/>
+                <extension name="rulebuilderbackoffice"/>
+                <extension name="couponbackoffice"/>
+                <extension name="droolsruleengineservices"/>
+                <extension name="couponfacades"/>
+                <extension name="promotionenginesamplesaddon"/>
+                <extension name="consignmenttrackingaddon"/>
+                <extension name="pcmbackofficesamplesaddon"/>
+                <extension name="consignmenttrackingoccaddon"/>
+                <!-- Custom extensions for TM -->
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tmcockpits"/>
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tmfulfilmentprocess"/>
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tmcore"/>
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tmfacades"/>
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tmstorefront"/>
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tminitialdata"/>
+                <extension dir="${HYBRIS_BIN_DIR}/custom/tm/tmtest"/>
+	</extensions>
+</hybrisconfig>
